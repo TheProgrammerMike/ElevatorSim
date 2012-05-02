@@ -1,0 +1,28 @@
+﻿Build started 5/1/2012 3:18:51 AM.
+     1>Project "C:\Users\Michael Bekesz\Desktop\School\School 07-09\School 09\Spring09\CS161ObjectOriented\PublicFolder\23-elevator\23-elevator.vcxproj" on node 3 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Michael Bekesz\Desktop\School\School 07-09\School 09\Spring09\CS161ObjectOriented\PublicFolder\Release\".
+       InitializeBuildStatus:
+         Creating "Release\23-elevator.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt elevator.cpp main.cpp passenger.cpp
+         elevator.cpp
+         main.cpp
+         passenger.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael Bekesz\Desktop\School\School 07-09\School 09\Spring09\CS161ObjectOriented\PublicFolder\Release\23-elevator.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\23-elevator.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Michael Bekesz\Desktop\School\School 07-09\School 09\Spring09\CS161ObjectOriented\PublicFolder\Release\23-elevator.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael Bekesz\Desktop\School\School 07-09\School 09\Spring09\CS161ObjectOriented\PublicFolder\Release\23-elevator.lib" /MACHINE:X86 Release\elevator.obj
+         Release\main.obj
+         Release\passenger.obj
+         Generating code
+         Finished generating code
+         23-elevator.vcxproj -> C:\Users\Michael Bekesz\Desktop\School\School 07-09\School 09\Spring09\CS161ObjectOriented\PublicFolder\Release\23-elevator.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Michael Bekesz\Desktop\School\School 07-09\School 09\Spring09\CS161ObjectOriented\PublicFolder\Release\23-elevator.exe;#1" /manifest "Release\23-elevator.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\23-elevator.unsuccessfulbuild".
+         Touching "Release\23-elevator.lastbuildstate".
+     1>Done Building Project "C:\Users\Michael Bekesz\Desktop\School\School 07-09\School 09\Spring09\CS161ObjectOriented\PublicFolder\23-elevator\23-elevator.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.17
